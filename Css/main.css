@@ -13,6 +13,29 @@
   --background: #d9edfc;
 }
 
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #33476b4d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #33466999;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -304,6 +327,7 @@ select.did-floating-select::-ms-expand {
   right: 32px;
   bottom: -15px;
 }
+
 /* dashboard css */
 .main-pannel {
   background: rgb(242, 237, 243);
@@ -562,6 +586,7 @@ select.did-floating-select::-ms-expand {
   padding: 5px 0;
   background: #EBD6FF;
 }
+
 /* table css ends */
 
 
@@ -572,6 +597,7 @@ select.did-floating-select::-ms-expand {
   padding: 16px 20px;
   border-radius: 8px;
 }
+
 .floating-label {
   position: relative;
   margin-bottom: 20px;
