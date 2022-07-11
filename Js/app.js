@@ -183,3 +183,7 @@ function hideUser() {
 });
 
 // dropdown button for col-3 main
+
+// slider.html js starts
+
+// slider.html js ends
