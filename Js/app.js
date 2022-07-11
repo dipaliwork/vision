@@ -37,7 +37,7 @@ function myFunction() {
 }
 
 function hideLogo() {
-  var x = document.getElementById("logo-container");
+  var x = document.getElementById("header");
   if (x.style.display === "none") {
     x.style.display = "flex";
   } else {
