@@ -101,8 +101,8 @@ window.onclick = function (event) {
 
 // toggle starts
 var show = function (t) {
-    t.style.display = "block"
-  },
+  t.style.display = "block"
+},
   hide = function (t) {
     t.style.display = "none"
   },
@@ -120,26 +120,26 @@ document.addEventListener("click", function (t) {
 
 
 // list view grid view js
-const listViewButton = document.querySelector('.list-view-button');
-const gridViewButton = document.querySelector('.grid-view-button');
-const tableViewButton = document.querySelector('.table-view-button');
-const list = document.querySelector('ol');
+// const listViewButton = document.querySelector('.list-view-button');
+// const gridViewButton = document.querySelector('.grid-view-button');
+// const tableViewButton = document.querySelector('.table-view-button');
+// const list = document.querySelector('ol');
 
-listViewButton.onclick = function () {
-  list.classList.remove('grid-view-filter');
-  list.classList.add('list-view-filter');
-}
+// listViewButton.onclick = function () {
+//   list.classList.remove('grid-view-filter');
+//   list.classList.add('list-view-filter');
+// }
 
-gridViewButton.onclick = function () {
-  list.classList.remove('list-view-filter');
-  list.classList.add('grid-view-filter');
-}
+// gridViewButton.onclick = function () {
+//   list.classList.remove('list-view-filter');
+//   list.classList.add('grid-view-filter');
+// }
 
-tableViewButton.onclick = function () {
-  list.classList.remove('list-view-filter');
-  list.classList.remove('grid-view-filter');
-  list.classList.add('table-view-filter');
-}
+// tableViewButton.onclick = function () {
+//   list.classList.remove('list-view-filter');
+//   list.classList.remove('grid-view-filter');
+//   list.classList.add('table-view-filter');
+// }
 // list view grid view css end
 
 
