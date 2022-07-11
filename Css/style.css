@@ -394,8 +394,8 @@ fill: #ffffff !important;
 /* search scope popup pannel end */
 .options {
   display: flex;
-  align-items: center;
-  margin: 8px 5px;
+    align-items: center;
+    margin: 4px 20px;
 }
 
 .col-3 {
@@ -406,15 +406,15 @@ fill: #ffffff !important;
 
 .nav-bar {
   display: flex;
-  background: var(--primary);
-  height: 44px;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 3px solid #5fdeb2;
-  height: 39px;
-  top: 0;
+    background: var(--primary);
+    width: calc(100% - 40px);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid #5fdeb2;
+    height: 40px;
+    top: 0;
+    padding: 0 20px;
 }
 
 #nav-tab-text {
@@ -495,11 +495,12 @@ fill: #ffffff !important;
 }
 
 .input {
-  width: 48%;
-  background: #efefef;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
+  width: 300px;
+    background: #efefef;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 2px;
+    font-size: 12px;
 }
 
 .sub-title {
