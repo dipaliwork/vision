@@ -788,14 +788,6 @@ li {
   margin: -1px 4px;
 }
 
-
-.active,
-.collapsible:hover {
-  /* background-color: #E0E0E0; */
-  /*display: block;*/
-  /* color: #9B9898; */
-}
-
 .content {
   padding: 0 18px;
   display: none;
