@@ -1,23 +1,3 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
-var icon = document.getElementsByClassName("svg-icon");
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    var carrate = document.getElementsByClassName("rotate");
-
-    if (content.style.display === "block") {
-      content.style.display = "none";
-      carrate.style.color = "red";
-    } else {
-      content.style.display = "block";
-      icon.style.zoom = 200;
-    }
-
-  });
-}
 
 function hideCol() {
   var x = document.getElementById("myDIV");
