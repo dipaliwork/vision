@@ -781,7 +781,61 @@ label {
 }
 
 /* alert.html ends */
+/* chips,html starts */
+.chips {
+  height: 28px;
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  margin: 0px 7px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
 
+#inverse-1-rounded {
+  border: 18px;
+  background: #ceb3f1;
+  color: #8b4ae1;
+  border-radius: 18px;
+}
+
+#inverse-2-rounded {
+  border-radius: 18px;
+  color: red;
+  background: rgb(240, 174, 174);
+}
+
+#inverse-3-rounded {
+  background: #ceb3f1;
+  color: #8b4ae1;
+  border-radius: 18px;
+}
+
+#inverse-4-rounded {
+  background: #f1dda3;
+  color: #E3A500;
+  border-radius: 18px;
+}
+
+#inverse-5-rounded {
+  border: 18px;
+  background: #ceb3f1;
+  color: #8b4ae1;
+  border-radius: 18px;
+}
+
+#inverse-6-rounded {
+  border-radius: 18px;
+  background: #aff8ed;
+  color: #28aa97;
+}
+
+/* chips.html ends */
 /* media query */
 @media screen and (min-width: 320px) and (max-width:870px) {
   body {
